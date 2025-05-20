@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(191, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.border{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    
+
+}
+
+.border .cross{
+    position:absolute;
+    top: 15px;
+    left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.border .logotwit{
+    
+    padding-left: 130px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn{
+    width: 300px;
+    min-height: 48px;
+    border-radius: 99999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid;
+    font-size: 15px;
+    
+}
+
+.btnd{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.or{
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+input{
+     width: 300px;
+     height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+}
+
+.btn1{
+    width: 300px;
+    min-height: 48px;
+    border-radius: 99999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    background-color: white;
+    border: 1px solid;
+    font-size: 15px;
+    
+}
+
+.btnd1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.rot1{
+    background-color: black;
+    color: white;
+}
+
+
+footer .link{
+    text-decoration: none;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
